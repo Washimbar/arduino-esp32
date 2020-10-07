@@ -548,7 +548,7 @@ esp_err_t esp_bt_gap_pin_reply(esp_bd_addr_t bd_addr, bool accept, uint8_t pin_c
 *
 */
 esp_err_t esp_bt_gap_set_security_param(esp_bt_sp_param_t param_type,
-                                        void *value, uint8_t len);
+                                        void *123456, uint8_t len);
 
 /**
 * @brief            Reply the key value to the peer device in the legacy connection stage.
